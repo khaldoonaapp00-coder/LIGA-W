@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة كرة القدم النسائية | Women's Football Hub</title>
-    <!-- استيراد الخطوط والأيقونات -->
+    <title>Liga W - تطبيق كرة القدم النسائية</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -31,7 +30,7 @@
         }
 
         header h1 {
-            font-size: 24px;
+            font-size: 26px;
             color: #fff;
             display: flex;
             align-items: center;
@@ -60,7 +59,6 @@
             padding-bottom: 8px;
         }
 
-        /* كروت المباريات */
         .match-card {
             background: #161b22;
             border: 1px solid #30363d;
@@ -98,7 +96,6 @@
             font-size: 14px;
         }
 
-        /* شبكة الهدافات والأخبار */
         .grid-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -158,84 +155,20 @@
 <body>
 
     <header>
-        <h1><i class="fa-solid fa-venus"></i> الكرة النسائية <span>Hub</span></h1>
+        <h1><i class="fa-solid fa-futbol"></i> LIGA <span>W</span></h1>
     </header>
 
     <div class="container">
         
-        <!-- جدول أهم المباريات -->
-        <h2 class="section-title"><i class="fa-solid fa-calendar-day"></i> مباريات اليوم (دوري السيدات)</h2>
+        <h2 class="section-title"><i class="fa-solid fa-calendar-day"></i> جدول المباريات</h2>
         
         <div class="match-card">
-            <div class="team left"><i class="fa-solid fa-shield-halved" style="color: #004d98;"></i> برشلونة (سيدات)</div>
-            <div class="score-time">2 - 1</div>
-            <div class="team right"><i class="fa-solid fa-shield-halved" style="color: #febe10;"></i> ريال مدريد (سيدات)</div>
+            <div class="team left"><i class="fa-solid fa-shield-halved" style="color: #004d98;"></i> برشلونة</div>
+            <div class="score-time">3 - 0</div>
+            <div class="team right"><i class="fa-solid fa-shield-halved" style="color: #febe10;"></i> ريال مدريد</div>
         </div>
 
         <div class="match-card">
-            <div class="team left"><i class="fa-solid fa-shield-halved" style="color: #6cabdd;"></i> مانشستر سيتي</div>
-            <div class="score-time">20:00</div>
-            <div class="team right"><i class="fa-solid fa-shield-halved" style="color: #eb172b;"></i> أرسنال</div>
-        </div>
-
-        <div class="grid-container">
-            <!-- قائمة الهدافات -->
-            <div>
-                <h2 class="section-title"><i class="fa-solid fa-trophy"></i> قائمة الهدافات</h2>
-                <div class="card">
-                    <div class="player-row">
-                        <div class="player-info">
-                            <span class="badge">1</span>
-                            <div>
-                                <strong>أيتانا بونماتي</strong>
-                                <div style="font-size: 11px; color: #8b949e;">برشلونة</div>
-                            </div>
-                        </div>
-                        <span style="color: #e91e63; font-weight: 700;">14 هدف</span>
-                    </div>
-
-                    <div class="player-row">
-                        <div class="player-info">
-                            <span class="badge">2</span>
-                            <div>
-                                <strong>أليكسيا بوتياس</strong>
-                                <div style="font-size: 11px; color: #8b949e;">برشلونة</div>
-                            </div>
-                        </div>
-                        <span style="color: #e91e63; font-weight: 700;">11 هدف</span>
-                    </div>
-
-                    <div class="player-row">
-                        <div class="player-info">
-                            <span class="badge">3</span>
-                            <div>
-                                <strong>سام كير</strong>
-                                <div style="font-size: 11px; color: #8b949e;">تشيلسي</div>
-                            </div>
-                        </div>
-                        <span style="color: #e91e63; font-weight: 700;">9 أهداف</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- أخبار وبطولات السيدات -->
-            <div>
-                <h2 class="section-title"><i class="fa-solid fa-newspaper"></i> أحدث الأخبار</h2>
-                <div class="card">
-                    <div class="news-item">
-                        <h4>استعدادات قوية لدوري أبطال أوروبا للسيدات</h4>
-                        <p>منافسة مشتعلة بين الأندية الأوروبية للوصول للأدوار النهائية.</p>
-                    </div>
-                    <hr style="border-color: rgba(255,255,255,0.05); margin: 10px 0;">
-                    <div class="news-item">
-                        <h4>ارتفاع نسبة المتابعة الجماهيرية للبطولات النسائية</h4>
-                        <p>أرقام قياسية جديدة في حضور الجماهير داخل الملاعب هذا الموسم.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</body>
-</html>
+            <div class="team left"><i class="fa-solid fa-shield-halved" style="color: #ffffff;"></i> أتلتيكو مدريد</div>
+            <div class="score-time">21:00</div>
+            <div class="team right"><i class="fa-solid fa-shield-halved" style="color: #a50044;"></i> فال
